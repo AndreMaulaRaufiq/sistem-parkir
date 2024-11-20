@@ -1,0 +1,17 @@
+/* MapView.css */
+.map-container {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.stage-container {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 0 auto;
+  display: inline-block;
+  background-color: #f9f9f9;
+}
+
+.rect {
+  cursor: pointer;
+}
