@@ -12,7 +12,6 @@ const BookingForm = ({ selectedSpot, onSubmit }) => {
     e.preventDefault();
     onSubmit({ ...formData, spotId: selectedSpot.id });
 
-    // Tampilkan dialog dengan hanya tombol OK
     window.alert("Thank you! Your booking has been confirmed.");
   };
 
